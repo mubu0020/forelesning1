@@ -15,8 +15,10 @@ function FontPage() {
 
 function MovieApplication(){
     return <Routes>
-        <Route path={"/"} element={<FontPage />} />
+        <Route path={"/"} element={<h1>Movies</h1>} />
         <Route path={"/new"} element={<h1>Create new movie</h1>}/>
+        <Route path={"*"} element={<h1>Movie not Found</h1>} />
+
     </Routes>
 }
 
