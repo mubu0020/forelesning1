@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mustafa Buga, du må dunke dette.",
   "license": "ISC",
   "repository": {
     "type": "git",
@@ -16,5 +16,13 @@
     "url": "https://github.com/mubu0020/forelesning1/issues"
   },
   "homepage": "https://github.com/mubu0020/forelesning1#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.6.2"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0"
+  }
 }
