@@ -1,7 +1,12 @@
+import {render} from "react-dom";
+import {ListMovies} from "../index";
+
 describe("movie pages", () => {
 
     it("show movies list", () => {
-        expect("movies").toBe("movies");
+        const element = document.createElement("div");
+        render(<ListMovies />, element);
+        expect(element.innerHTML).toMatchSnapshot();
 
     });
 
